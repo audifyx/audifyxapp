@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Music Social Platform",
+    "slug": "music-social-platform",
+    "scheme": "musicsocial",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.musicsocial.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.musicsocial.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5d72a71e-9d9b-43ad-a3cd-85a2cd60296d"
+      }
+    },
+    "owner": "parallaxx203",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/5d72a71e-9d9b-43ad-a3cd-85a2cd60296d"
+    }
+  }
+}
