@@ -57,30 +57,6 @@ cp .env.example .env
 bun start
 ```
 
-## 📱 Building for Mobile (EAS)
-
-### **Project Configuration**
-- **EAS Project ID:** `5d72a71e-9d9b-43ad-a3cd-85a2cd60296d`
-- **Bundle ID (iOS):** `com.musicsocial.app`
-- **Package Name (Android):** `com.musicsocial.app`
-
-### **Quick Build Commands**
-```bash
-# Setup EAS (run once)
-npm install -g @expo/eas-cli
-eas login
-eas init --id 5d72a71e-9d9b-43ad-a3cd-85a2cd60296d
-
-# Build for all platforms
-eas build --platform all --profile development
-
-# Production builds for app stores
-eas build --platform all --profile production
-
-# Submit to app stores
-eas submit --platform all --latest
-```
-
 ### Environment Setup
 1. **Supabase Database**: Create a project at [supabase.com](https://supabase.com)
 2. **Expo Account**: Sign up at [expo.dev](https://expo.dev)
